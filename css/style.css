@@ -307,6 +307,30 @@ table, th, td {
 	text-align: center;
 }
 
+/* start styles for cereal box flip */
+.tabox2 {
+    height: 355px;
+    width: 242px;
+	margin: 10px;
+	text-align: center;
+    margin-bottom: 0;
+    background-color: white;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 99;
+}
+
+.tacereal img {
+    margin: 0 !important;
+    width: 242px !important;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.tainfo img {
+    width: 150px;
+    margin: 20px;
+}
+/* end styles for cereal box flip */
+
 .shelfwrapper img {
     max-width: 800px;
 }

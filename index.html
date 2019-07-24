@@ -7,8 +7,8 @@
     <link rel="shortcut icon" type="image/png" href="images/rainbowMarshmallow.png">
 
     <!--fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">	  
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -677,11 +677,23 @@
         </div>
 
         <div id="professorwrapper">
-          <div class="tabox">
+          <!-- <div class="tabox">
             <img onmouseover="switchImage(this, 0)" onmouseout="switchImageBack(this, 0)" src="images/honeyNutCheerios.png"/>
             <div class="name">Jeff Huang</div>
             <div class="login">(jeff)</div>
             <div class="bio">Hours: Tuesdays 2:30 - 4:00 p.m. <br> Office: CIT 407</div>
+          </div> -->
+
+          <div class="tabox2" onmouseenter="showInfo(0)" onmouseleave="showCereal(0)">
+              <div class="tacereal" id="box0">
+                  <img src="images/honeyNutCheerios2.jpg"/>
+              </div>
+              <div class="tainfo" id="info0" style="display:none">
+                  <img src="staff/miiPlaceholder.png"/>
+                  <div class="name">Jeff Huang</div>
+                  <div class="login">(jeff)</div>
+                  <div class="bio">Hours: Tuesdays 2:30 - 4:00 p.m. <br> Office: CIT 407</div>
+              </div>
           </div>
 
           <div class="shelfwrapper"><img src="images/shelf.png"/></div>
@@ -839,6 +851,21 @@
           function switchImageBack(img, x){
             img.src = monopolyarray[x][1];
           }
+
+          // Functions for new cereal box flip
+          function showInfo(x){
+              const box = document.getElementById("box" + x);
+              const info = document.getElementById("info" + x);
+              box.style.display = "none";
+              info.style.display = "block";
+          }
+          function showCereal(x){
+              const box = document.getElementById("box" + x);
+              const info = document.getElementById("info" + x);
+              info.style.display = "none";
+              box.style.display = "block";
+          }
+
           </script>
         </div>
 
