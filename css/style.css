@@ -1,21 +1,12 @@
 body {
-	background-color: #d9edfa;
-	font-family: futura;
+	background-color: #c4e9ff;
+	font-family: 'Patua One', cursive;
+	color: rgb(156, 141, 98);
 }
 
 @font-face {
     font-family: coppergothic;
     src: url('Copperplate Gothic Regular.otf');
-}
-
-@font-face {
-	font-family: futura;
-	src: url('FuturaTEE Regular.ttf');
-}
-
-@font-face {
-	font-family: kabel;
-	src: url('kabel.ttf');
 }
 
 #logo {
@@ -30,11 +21,11 @@ body {
 .linkbox {
 	width: 10%;
 	height: 30px;
-	border: 3px solid black;
+	border: 3px solid white;
 	margin-left: 5px;
 	margin-right: 5px;
-	font-family: futura;
-	font-size: 14px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 16px;
 	color: black;
 	text-align: center;
 	letter-spacing: 1px;
@@ -50,7 +41,6 @@ body {
 	flex-direction: horizontal;
 	justify-content: center;
 }
-
 
 #links {
 	display: flex;
@@ -84,9 +74,8 @@ body {
   	transition: all 0.2s ease-in-out;
 }
 
-
 .content {
-	width: 60%;
+	width: 67%;
 	display: flex;
 	flex-direction: vertical;
 	justify-content: center;
@@ -101,7 +90,7 @@ body {
 }*/
 
 #faq .question {
-	font-family: futura;
+	font-family: 'Patua One', cursive;
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -110,7 +99,7 @@ body {
 }
 
 #faq .answer {
-	font-family: futura;
+	font-family: 'Patua One', cursive;
 	font-size: 14px;
 	margin: 0px 0px 0px 30px;
 	line-height: 18px;
@@ -134,16 +123,18 @@ body {
 }
 
 #welcome {
-	font-family: futura;
+	font-family: 'Patua One', cursive;
 	font-size: 26px;
 	margin-top: 40px;
 	text-align: center;
 	font-weight: bold;
-	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	/* text-transform: uppercase; */
 }
 
 #logistics {
-	font-family: futura;
+	font-family: 'Patua One', cursive;
 	font-size: 16px;
 	text-align: center;
 	letter-spacing: 1px;
@@ -154,7 +145,7 @@ body {
 
 #intro {
 	margin-top: 30px;
-	font-family: futura;
+	font-family: 'Patua One', cursive;
 	font-size: 14px;
 	line-height: 18px;
 }
@@ -177,13 +168,13 @@ body {
 }
 
 h1 {
-	font-family: kabel;
-	font-size: 35px;
-	color: white;
-	text-shadow: -3px 4px #000000;
+	font-family: 'Patua One', cursive;
+	font-size: 45px;
+	color: rgb(202, 181, 121);
+	/* text-shadow: -3px 4px #e93232; */
 	margin-top: 40px;
 	margin-bottom: 40px;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 	text-align: center;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
@@ -192,7 +183,7 @@ h1 {
 }
 
 h1:hover {
-	text-shadow: -6px 6px #000000;
+	text-shadow: -3px 4px white;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -204,13 +195,12 @@ h1:hover {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    /*border-top: 4px solid black;*/
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: -20px;
+	margin-bottom: -20px;
 }
 
 .cerealborder img {
-    max-width: 800px;
+    max-width: 1000px;
     margin-top: 40px;
 }
 
@@ -231,16 +221,18 @@ h1:hover {
 	text-transform: uppercase;
 	color: black;
 	letter-spacing: 1px;
-	font-size: 13px;
+	font-size: 15px;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
-  	transition: all 0.2s ease-in-out;
+	  transition: all 0.2s ease-in-out;
+	  text-decoration: none;
 }
 
 .documentlink a:hover {
-	letter-spacing: 1.5px;
-	color: #44663c;
+	/* letter-spacing: 1.5px; */
+	font-size: 17px;
+	color: #d8504c;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -430,7 +422,7 @@ table, th, td {
 	width: 70%;
 	margin: auto;
 	margin-top: 15px;
-	font-family: futura;
+	font-family: 'Fredoka One', cursive;
 	font-size: 14px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
