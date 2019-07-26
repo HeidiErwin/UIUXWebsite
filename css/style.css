@@ -299,16 +299,15 @@ table, th, td {
 	text-align: center;
 }
 
-.tabox {
+/* .tabox {
 	width: 340px;
 	height: 400px;
 	border: 1px solid black;
 	margin: 10px;
 	text-align: center;
-}
+} */
 
-/* start styles for cereal box flip */
-.tabox2 {
+.tabox {
     height: 355px;
     width: 242px;
 	margin: 10px;
@@ -329,7 +328,6 @@ table, th, td {
     width: 150px;
     margin: 20px;
 }
-/* end styles for cereal box flip */
 
 .shelfwrapper img {
     max-width: 800px;
@@ -388,10 +386,10 @@ table, th, td {
 	line-height: 18px;
 }
 
-.tabox img {
+/* .tabox img {
 	margin: 20px;
 	width: 220px;
-}
+} */
 
 .assignment-wrapper {
 	display: flex;
@@ -612,7 +610,7 @@ table, th, td {
 
 
 }
-@media only screen and (min-width: 300px) and (max-width: 700px) {
+@media only screen and (min-width: 300px) and (max-width: 800px) {
 	.content {
 		width: 80%;
 	}
@@ -631,6 +629,26 @@ table, th, td {
 
     .documentlink a {
     	font-size: 18px;
+    }
+
+    .tainfo img {
+        width: 80px;
+    }
+
+    .tacereal img {
+        width: 160px !important;
+    }
+    .tabox {
+        width: 160px;
+        height: 235px;
+    }
+
+    .shelfwrapper {
+        width: 90%;
+    }
+
+    .shelfwrapper img {
+        width: 100%;
     }
 }
 
