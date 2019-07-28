@@ -1,7 +1,7 @@
 body {
-	background-color: #c4e9ff;
+	background-color: #c3e8f0;
 	font-family: 'Patua One', cursive;
-	color: rgb(156, 141, 98);
+	color: #a58a60;
 }
 
 @font-face {
@@ -170,8 +170,8 @@ body {
 h1 {
 	font-family: 'Patua One', cursive;
 	font-size: 45px;
-	color: rgb(202, 181, 121);
-	/* text-shadow: -3px 4px #e93232; */
+	color: rgb(198, 173, 119);
+	text-shadow: -3px 4px white;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	letter-spacing: 3px;
@@ -201,7 +201,7 @@ h1:hover {
 
 .cerealborder img {
     max-width: 1000px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .cerealborder {
