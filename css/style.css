@@ -26,7 +26,7 @@ body {
 	margin-right: 5px;
 	font-family: 'Fredoka One', cursive;
 	font-size: 16px;
-	color: black;
+	color: white;
 	text-align: center;
 	letter-spacing: 1px;
 	line-height: 30px;
@@ -50,7 +50,7 @@ body {
 
 .linkbox a {
 	text-decoration: none;
-	color: black;
+	color: white;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -242,7 +242,6 @@ h1:hover {
 #assignments, #schedule, #labs {
 	display: flex;
 	justify-content: center;
-
 }
 
 
@@ -399,45 +398,36 @@ table, th, td {
 }
 
 .assignment-card {
-	height: 210px;
+	height: 240px;
 	width: 200px;
 	background-color: #ffffff;
 	box-shadow: 6px 6px rgba(32, 58, 26, 0.1);
-	border: 2px solid #000;
+	/* border: 2px solid #000; */
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 20px;
 }
 
 .assignment-title {
-	width: 86%;
-	height: 38px;
-	margin: auto;
-    margin-top: 10px;
-    background-color: #430472;
-    border: 3px solid #000;
-}
-
-.assignment-border {
-	width: 188px;
-	height: 198px;
-	border: 2px solid black;
-	justify-content: center;
-	margin: 4px;
+	width: 100%;
+	height: 48px;
+	text-align: center;
+	margin-top: 0px;
+	align-content: center;
+    justify-content: center;
 }
 
 #handout {
 	font-weight: bold;
 }
 
-
-
 .title-text {
-	font-size: 17px;
-    font-family: coppergothic;
-    color: #000;
-    margin-top: 2px;
-    text-align: center;
+	font-size: 19px;
+	font-family: 'Fredoka One', cursive;
+	text-transform: uppercase; 
+    /* font-family: coppergothic; */
+    color: white;
+	text-align: center;
 }
 
 .assignment-details {
@@ -445,7 +435,8 @@ table, th, td {
 	margin: auto;
 	margin-top: 15px;
 	font-family: 'Fredoka One', cursive;
-	font-size: 14px;
+	color: rgb(198, 173, 119);
+	font-size: 16px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	display: flex;
@@ -513,8 +504,12 @@ table, th, td {
 	margin-right: 10px;
 }
 
+.shelfname {
+	font-size: 22px;
+}
+
 #profname {
-	width: 220px;
+	width: 280px;
 	text-align: center;
 }
 
