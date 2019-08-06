@@ -1,5 +1,6 @@
 body {
-	background-color: #c3e8f0;
+	background-color: #e5dcc7;
+	/* background-color: #c3e8f0; */
 	font-family: 'Patua One', cursive;
 	color: #a58a60;
 }
@@ -114,7 +115,7 @@ body {
 }
 
 #faq .answer a:hover {
-	color: #44663c;
+	color: #ea8e92;
 	letter-spacing: 1px;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
@@ -160,7 +161,7 @@ body {
 
 #intro a:hover {
 	letter-spacing: 1px;
-	color: #44663c;
+	color: #ea8e92;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -232,7 +233,7 @@ h1:hover {
 .documentlink a:hover {
 	/* letter-spacing: 1.5px; */
 	font-size: 17px;
-	color: #d8504c;
+	color: #ea8e92;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -259,7 +260,7 @@ table a {
 }
 
 table a:hover {
-	color: #44663c;
+	color: #ea8e92;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -290,7 +291,7 @@ td {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid white;
     border-collapse: collapse;
 }
 
@@ -398,23 +399,27 @@ table, th, td {
 }
 
 .assignment-card {
-	height: 240px;
-	width: 200px;
-	background-color: #ffffff;
-	box-shadow: 6px 6px rgba(32, 58, 26, 0.1);
-	/* border: 2px solid #000; */
+	height: 310px;
+	width: 220px;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.milk-carton {
+	height: 300px;
+	width: 225px;
 }
 
 .assignment-title {
-	width: 100%;
+	position: absolute;
+	top: 100px;
 	height: 48px;
 	text-align: center;
-	margin-top: 0px;
 	align-content: center;
-    justify-content: center;
+	justify-content: center;
 }
 
 #handout {
@@ -422,29 +427,32 @@ table, th, td {
 }
 
 .title-text {
-	font-size: 19px;
+	font-size: 18px;
 	font-family: 'Fredoka One', cursive;
 	text-transform: uppercase; 
     /* font-family: coppergothic; */
-    color: white;
+	color: rgb(198, 173, 119);
 	text-align: center;
 }
 
 .assignment-details {
-	width: 70%;
-	margin: auto;
-	margin-top: 15px;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-30%, -30%);
 	font-family: 'Fredoka One', cursive;
-	color: rgb(198, 173, 119);
-	font-size: 16px;
+	font-size: 14px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	width: 60%;
+	margin: auto;
 	display: flex;
 	flex-direction: column;
+	line-height: 16px;
 }
 
 .assignment-details a{
-	color: black;
+	color: #83bdd2;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -452,8 +460,8 @@ table, th, td {
 }
 
 .assignment-details a:hover {
-	letter-spacing: 1.5px;
-	color: #44663c;
+	letter-spacing: 1.2px;
+	color: #ea8e92;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -555,7 +563,7 @@ table, th, td {
 }
 
 #apply a:hover {
-	color: #44663c;
+	color: #ea8e92;
 	letter-spacing: 1px;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
