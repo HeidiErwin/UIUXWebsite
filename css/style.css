@@ -1,5 +1,6 @@
 body {
-	background-color: #e5dcc7;
+	/* background-color: #e5dcc7; */
+	background-color: #eae2d0;
 	/* background-color: #c3e8f0; */
 	font-family: 'Patua One', cursive;
 	color: #a58a60;
@@ -107,7 +108,7 @@ body {
 }
 
 #faq .answer a {
-	color: black;
+	color: #83bdd2;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -130,8 +131,6 @@ body {
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 1px;
-
-	/* text-transform: uppercase; */
 }
 
 #logistics {
@@ -152,7 +151,7 @@ body {
 }
 
 #intro a {
-	color: black;
+	color: #83bdd2;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -252,7 +251,7 @@ h1:hover {
 } */
 
 table a {
-	color: black;
+	color: #83bdd2;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -555,7 +554,7 @@ table, th, td {
 }
 
 #apply a {
-	color: black;
+	color: #83bdd2;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
