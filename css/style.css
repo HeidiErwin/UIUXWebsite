@@ -334,7 +334,6 @@ table, th, td {
     max-width: 800px;
 }
 
-
 #emails {
 	text-align: center;
 }
@@ -599,8 +598,7 @@ table, th, td {
 
     #calendar {
     	height: 400px;
-    }
-
+	}
 }
 
 @media only screen and (max-width: 1000px) {
@@ -639,15 +637,15 @@ table, th, td {
     }
 
     .tainfo img {
-        width: 80px;
+        width: 120px;
     }
 
     .tacereal img {
-        width: 160px !important;
+        width: 240px !important;
     }
     .tabox {
-        width: 160px;
-        height: 235px;
+        width: 240px;
+        height: 352px;
     }
 
     .shelfwrapper {
@@ -655,8 +653,9 @@ table, th, td {
     }
 
     .shelfwrapper img {
-        width: 100%;
-    }
+		width: 100%;
+		display: none;
+	}
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 700px) {
