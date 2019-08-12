@@ -1,9 +1,9 @@
 body {
-	/* background-color: #e5dcc7; */
+	/* background-color: #ece5d5; */
 	background-color: #eae2d0;
 	/* background-color: #c3e8f0; */
 	font-family: 'Patua One', cursive;
-	color: #a58a60;
+	color: #8b734b;
 }
 
 @font-face {
@@ -170,7 +170,8 @@ body {
 h1 {
 	font-family: 'Patua One', cursive;
 	font-size: 45px;
-	color: rgb(198, 173, 119);
+	color: #b39971;
+	/* color: rgb(198, 173, 119); */
 	text-shadow: -3px 4px white;
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -214,12 +215,13 @@ h1:hover {
 	flex-direction: horizontal;
 	justify-content: center;
 	flex-wrap: wrap;
+	line-height: 22px;
 }
 
 .documentlink a{
 	margin: 0px 7px;
 	text-transform: uppercase;
-	color: black;
+	color: #83bdd2;;
 	letter-spacing: 1px;
 	font-size: 15px;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -369,7 +371,6 @@ table, th, td {
 }
 
 .name {
-	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -489,8 +490,8 @@ table, th, td {
 #jeffbarwrapper, #htabarwrapper, #utabarwrapper {
 	display: flex;
 	flex-direction: row;
-	justify-content: left;
-	width: 100%;
+	justify-content: center;
+	margin: auto;
 }
 
 .progress-bar-1, .progress-bar-2 {
@@ -511,12 +512,16 @@ table, th, td {
 	margin-right: 10px;
 }
 
+.staff {
+	text-align: center;
+}
+
 .shelfname {
-	font-size: 22px;
+	font-size: 26px;
 }
 
 #profname {
-	width: 280px;
+	width: 240px;
 	text-align: center;
 }
 
@@ -530,7 +535,7 @@ table, th, td {
 	text-align: center;
 }
 
-.railroadimg {
+.marshmallowimg {
 	margin-left: 8px;
 	margin-right: 8px;
 	width: 30px;
