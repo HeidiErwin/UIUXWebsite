@@ -1,7 +1,5 @@
 body {
-	/* background-color: #ece5d5; */
 	background-color: #eae2d0;
-	/* background-color: #c3e8f0; */
 	font-family: 'Patua One', cursive;
 	color: #8b734b;
 }
@@ -379,10 +377,11 @@ table, th, td {
 
 .login {
 	font-size: 12px;
+	color: #5dc1c6;
 }
 
 .bio {
-	margin: 20px 20px 0px 20px;
+	margin: 3px 20px 0px 20px;
 	font-size: 13px;
 	line-height: 18px;
 }
