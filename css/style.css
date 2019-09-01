@@ -224,6 +224,19 @@ h1:hover {
 	line-height: 22px;
 }
 
+.documentlink {
+	margin: 0px 7px;
+	text-transform: uppercase;
+	color: #83bdd2;;
+	letter-spacing: 1px;
+	font-size: 15px;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+	  transition: all 0.2s ease-in-out;
+	  text-decoration: none;
+}
+
 .documentlink a{
 	margin: 0px 7px;
 	text-transform: uppercase;
