@@ -123,6 +123,12 @@ body {
   	transition: all 0.2s ease-in-out;
 }
 
+.important-note {
+	color: #f77c7c;
+	font-size: 18px;
+	text-align: center;
+}
+
 #welcome {
 	font-family: 'Patua One', cursive;
 	font-size: 26px;
@@ -296,7 +302,7 @@ table, th, td {
     border-collapse: collapse;
 }
 
-.date, .time, .location, .lab, .sign-up, .handout, .slides {
+.date, .time, .day-of-week, .location, .lab, .sign-up, .handout, .slides {
 	text-align: center;
 }
 
@@ -504,16 +510,6 @@ table, th, td {
   	width: 0%;
 }
 
-.railroadname {
-	padding: 2px;
-	font-size: 16px;
-	font-weight: bold;
-	text-transform: uppercase;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-	margin-right: 10px;
-}
-
 .staff {
 	text-align: center;
 }
@@ -583,8 +579,7 @@ table, th, td {
     100% {color:black;}
 }*/
 
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
     .linkbox {
         font-size: 12px;
     }
@@ -608,15 +603,12 @@ table, th, td {
     .linkbox {
         font-size: 10px;
     }
-
 }
 
 @media only screen and (max-width: 800px) {
     .linkbox {
         font-size: 9px;
     }
-
-
 }
 @media only screen and (min-width: 300px) and (max-width: 800px) {
 	.content {
@@ -643,17 +635,13 @@ table, th, td {
         width: 120px;
     }
 
-    .tacereal img {
+    /* .tacereal img {
         width: 240px !important;
     }
     .tabox {
         width: 240px;
         height: 352px;
-    }
-
-    .shelfwrapper {
-        width: 90%;
-    }
+    } */
 
     .shelfwrapper img {
 		width: 100%;
