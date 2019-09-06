@@ -1,5 +1,5 @@
 body {
-	background-color: #eae2d0;
+	background-color: #f8f0df;
 	font-family: 'Patua One', cursive;
 	color: #8b734b;
 }
@@ -327,6 +327,21 @@ table, th, td {
 	text-align: center;
 } */
 
+.boxesandshelf {
+	justify-content: center;
+	margin: 30px 0px;
+	/* display: block; */
+	width: 100%;
+}
+
+.boxrow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
 .tabox {
     height: 355px;
     width: 242px;
@@ -335,7 +350,8 @@ table, th, td {
     margin-bottom: 0;
     background-color: white;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
-    z-index: 99;
+	z-index: 99;
+	/* margin: auto; */
 }
 
 .tacereal img {
@@ -344,13 +360,33 @@ table, th, td {
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.tainfo {
+    position: relative;
+}
+
+
 .tainfo img {
-    width: 150px;
-    margin: 20px;
+    width: 242px;
+}
+
+.tainfobox {
+	background-color:white;
+	position: absolute;
+	left: 7px;
+	right: 7px;
+	bottom: 11px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.shelfwrapper {
+	justify-content: center;
+	margin: auto;
+	display:grid;
 }
 
 .shelfwrapper img {
-    max-width: 800px;
+	max-width: 800px;
 }
 
 #emails {
@@ -376,7 +412,6 @@ table, th, td {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 30px 0px;
-
 }
 
 #professorwrapper {
@@ -390,7 +425,7 @@ table, th, td {
 }
 
 .name {
-	font-size: 16px;
+	font-size: 14px;
 	/* font-weight: bold; */
 }
 
@@ -400,15 +435,10 @@ table, th, td {
 }
 
 .bio {
-	margin: 3px 20px 0px 20px;
-	font-size: 13px;
-	line-height: 18px;
+	margin: 3px 10px 0px 10px;
+	font-size: 12px;
+	line-height: 17px;
 }
-
-/* .tabox img {
-	margin: 20px;
-	width: 220px;
-} */
 
 .assignment-wrapper {
 	display: flex;
@@ -658,7 +688,8 @@ table, th, td {
 
     .shelfwrapper img {
 		width: 100%;
-		display: none;
+		margin: auto;
+		/* display: none; */
 	}
 }
 
